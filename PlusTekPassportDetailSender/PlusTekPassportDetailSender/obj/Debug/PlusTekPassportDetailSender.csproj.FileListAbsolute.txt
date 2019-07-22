@@ -15,3 +15,20 @@ C:\Users\harold.geronimo\source\repos\PlusTekPassportDetailSender\PlusTekPasspor
 C:\Users\harold.geronimo\source\repos\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\Passport Detail Sender.exe
 C:\Users\harold.geronimo\source\repos\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\Passport Detail Sender.pdb
 C:\Users\harold.geronimo\source\repos\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\PlusTekPassportDetailSender.csprojAssemblyReference.cache
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\bin\Debug\Passport Detail Sender.exe.config
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\bin\Debug\Passport Detail Sender.exe.manifest
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\bin\Debug\Passport Detail Sender.application
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\bin\Debug\Passport Detail Sender.exe
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\bin\Debug\Passport Detail Sender.pdb
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\PlusTekPassportDetailSender.csprojAssemblyReference.cache
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\PlusTekPassportDetailSender.csproj.ResolveComReference.cache
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\PlusTekPassportDetailSender.MainForm.resources
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\PlusTekPassportDetailSender.Properties.Resources.resources
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\PlusTekPassportDetailSender.Settings.resources
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\PlusTekPassportDetailSender.csproj.GenerateResource.cache
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\PlusTekPassportDetailSender.csproj.CoreCompileInputs.cache
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\Passport Detail Sender.exe.manifest
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\Passport Detail Sender.application
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\Passport Detail Sender.exe
+C:\Users\harold.geronimo\Documents\GitHub\PassportDetailSender\PlusTekPassportDetailSender\PlusTekPassportDetailSender\obj\Debug\Passport Detail Sender.pdb

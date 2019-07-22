@@ -19,6 +19,14 @@ namespace PlusTekPassportDetailSender
                     Application.ExecutablePath
                     );
             }
+            else
+            {
+                SaveData.CheckExistingShortcut(
+                    "Passport Detail Sender",
+                    Environment.GetFolderPath(Environment.SpecialFolder.Startup),
+                    Application.ExecutablePath
+                    );
+            }
         }
         public MainForm()
         {
@@ -38,18 +46,11 @@ namespace PlusTekPassportDetailSender
                 notifyIcon1.Visible = true;
         }
 
+
+
+
         private void MainForm_Load(object sender, EventArgs e)
         {
-            string addr = "";
-            foreach (NetworkInterface n in NetworkInterface.GetAllNetworkInterfaces())
-            {
-                if (n.OperationalStatus == OperationalStatus.Up)
-                {
-                    addr += n.GetPhysicalAddress().ToString();
-                    break;
-                }
-            }
-            
 
             if (System.Diagnostics.Process.GetProcessesByName(System.IO.Path.GetFileNameWithoutExtension(System.Reflection.Assembly.GetEntryAssembly().Location)).Length > 1) {
                 MessageBox.Show("Another instance of this application is already running!");

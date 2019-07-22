@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
 using IWshRuntimeLibrary;
+using System.IO;
 
 namespace PlusTekPassportDetailSender
 {
@@ -35,16 +36,26 @@ namespace PlusTekPassportDetailSender
 
         public static void CreateShortcut(string shortcutName, string shortcutPath, string targetFileLocation)
         {
-            string shortcutLocation = System.IO.Path.Combine(shortcutPath, shortcutName + ".lnk");
+            string shortcutLocation = Path.Combine(shortcutPath, shortcutName + ".lnk");
             WshShell shell = new WshShell();
             IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutLocation);
-
+            
             shortcut.Description = "Passport Detail Sender";   // The description of the shortcut
                       // The icon of the shortcut
             shortcut.TargetPath = targetFileLocation;                 // The path of the file that will launch when the shortcut is run
             shortcut.Save();                                    // Save the shortcut
         }
+        public static void CheckExistingShortcut(string shortcutName, string shortcutPath, string targetFileLocation)
+        {
+            string shortcutLocation = Path.Combine(shortcutPath, shortcutName + ".lnk");
+            WshShell shell = new WshShell(); //Create a new WshShell Interface
+            IWshShortcut link = (IWshShortcut)shell.CreateShortcut(shortcutLocation); //Link the interface to our shortcut
 
+            if(targetFileLocation != link.TargetPath)
+            {
+                CreateShortcut(shortcutName, shortcutPath, targetFileLocation);
+            }
+        }
        
     }
 }

@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
+using System.Net;
+using System.Net.Sockets;
 
 namespace PlusTekPassportDetailSender
 {
@@ -77,6 +79,7 @@ namespace PlusTekPassportDetailSender
             public string MRZ2;
             public string ImageContent;
             public string ImageFilename;
+            public string LocalIP;
             public PassportString(Passport p)
             {
                 this.DateScanned = p.dateScanned.ToString("yyyy-MM-dd");
@@ -91,6 +94,15 @@ namespace PlusTekPassportDetailSender
                 this.MRZ2 = p.mrz2;
                 this.ImageContent = p.imageContent;
                 this.ImageFilename = p.imageFilename;
+                try
+                {
+
+
+                    this.LocalIP = GetLocalIPAddress();
+                }
+                catch (Exception e)
+                {
+                }
         }
         }
 
@@ -101,8 +113,20 @@ namespace PlusTekPassportDetailSender
             return base64String;
         }
 
+        public static string GetLocalIPAddress()
+        {
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (var ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    return ip.ToString();
+                }
+            }
+            throw new Exception("No network adapters with an IPv4 address in the system!");
+        }
 
-        
+
 
     }
 }
